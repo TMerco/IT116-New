@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Creation Assignment</title>
+</head>
+<body>
+    <h1>Form Creation Assignment</h1>
+    
+    <form action="/forms">
+        <!--  -->
+        <section>
+            <p>
+                <label for="fname">First Name:</label>    
+                <input type="text" id="fname" name="firstname" placeholder="First Name" minlength="1" maxlength="10"> 
+            </p>
+            <p>
+                <label for="lname">Last Name:</label>    
+                <input type="text" id="lname" name="lastname" placeholder="Last Name" minlength="1" maxlength="10">
+            </p>
+        </section>
+
+        <!--  -->
+        <section>
+            <p>
+            <label for="foods">Which food would you like to eat?</label>
+            <select name="foods" id="foods">
+                <option value="worms">Worms</option>
+
+                <option value="ants">Ants</option>
+
+                <option value="beattles">Beatles</option>
+
+            </select>
+
+            </p>
+        </section>
+        <section>
+
+
+            <p>
+                <label for="requests">Do you have any allergies?</label>
+                <textarea name="textarea" id="requests" cols="15" rows="3" placeholder="Ex: Grass, Pollen, Peanut Butter"></textarea>
+
+               <p><button>Send</button></p> 
+
+            </p>
+        </section>
+
+
+
+
+    </form>
+
+
+
+</body>
+</html>
