@@ -7,7 +7,9 @@
     <title>Forms</title>
 </head>
 <body>
-    <h1>First Form</h1>
+
+    <section>
+        <h1>First Form</h1>
 
         <form action="/Tyrell">
             <!-- The content inside a form tag must be in paragraphs <p> -->
@@ -25,6 +27,9 @@
             </p>
 <!-- Here is the submit button -->
             <button>Submit</button>
+        </section>
+
+        <section>
             <hr>
 
             <!-- ScrollBar -->
@@ -35,6 +40,9 @@
 
                 <input type="range" id="sbar" min="1" max="10" name="scrollbar">
             </p>
+        </section>
+
+        <section>
 
 <!-- textbox area is created by the "requests" element in the label tag -->
             <p>
@@ -46,6 +54,7 @@
         </form>
 
         <hr>
+    </section>
 <!--  -->
         <section>
 
@@ -58,6 +67,10 @@
                 <!--  -->
                 <label for="password"></label>
                 <input type="text" name="password" id="password" minlength="6" maxlength="15"></form>
+
+                <p>
+                    <input type="email" required>
+                </p>
 
                 <button type="submit">Validation Button</button>
             </form>
