@@ -4,58 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Creation Assignment</title>
+    <title>Forms Assignment</title>
 </head>
 <body>
-    <h1>Form Creation Assignment</h1>
+    <h1>Form Assignment</h1>
     
-    <form action="/forms">
-        <!-- here i used the "label" & "input" tags to create a textbox used to collect the first and last name of the user. -->
-        <section>
-            <p>
-                <!-- label  -->
-                <labaeqwdl for="fname">First Name:</label>    
-                <input type="text" id="fname" name="firstname" placeholder="First Name" minlength="1" maxlength="10"> 
-            </p>
-            <p>
-                <label for="lname">Last Name:</label>    
-                <input type="text" id="lname" name="lastname" placeholder="Last Name" minlength="1" maxlength="10">
-            </p>
-        </section>
+        <form action="/forms">
+            <!-- here i used the "label" & "input" tags to create a textbox used to collect the first and last name of the user. -->
+            <section>
+                <p>
+                    <!-- "<label>"" is used for assigning purposes and to label the form-->
+                    <label for="fname">First Name:</label>  
+                    <input type="text" id="fname" name="firstname" placeholder="First Name" minlength="1" maxlength="10"> 
+                </p>
+                <p>
+                    <label for="lname">Last Name:</label>     
+                    <!-- "<input>" is used to determin what the form is for. -->
+                    <input type="text" id="lname" name="lastname" placeholder="Last Name" minlength="1" maxlength="10">
+                </p>
+            </section>
 
-        <!--  -->
-        <section>
-            <p>
-            <label for="foods">Which food would you like to eat?</label>
-            <select name="foods" id="foods">
-                <option value="worms">Worms</option>
+            <!--Here I made question with a drop down menue multiple choice answer -->
+            <section>
+                <p>
+                    <!-- "<label>" is used here to determin what the question is and whats being inputed -->
+                <label for="foods">Which food would you like to eat?</label>
+                <!-- "<select>" is assigning is form-->
+                <select name="foods" id="foods">
+                    <!-- "<option>" are the options the user can chose from -->
+                    <option value="worms">Worms</option>
 
-                <option value="ants">Ants</option>
+                    <option value="ants">Ants</option>
 
-                <option value="beattles">Beatles</option>
+                    <option value="beattles">Beatles</option>
 
-            </select>
+                </select>
 
-            </p>
-        </section>
-        <section>
+                </p>
+            </section>
+            <section>
 
+                <!-- Here i have a form that is a textbox, collecting user's allergies -->
+                <p>
+            <!-- "<label>" is used here to determin what the question is and whats being inputed -->
+                    <label for="requests">Do you have any allergies?</label>
+                    <!-- "<textarea>" contains the elements to shape and define the textbox and what goes inside -->
+                    <textarea name="textarea" id="requests" cols="15" rows="3" placeholder="Ex: Grass, Pollen, Peanut Butter"></textarea>
 
-            <p>
-                <label for="requests">Do you have any allergies?</label>
-                <textarea name="textarea" id="requests" cols="15" rows="3" placeholder="Ex: Grass, Pollen, Peanut Butter"></textarea>
+                <p><button>Send</button></p> 
 
-               <p><button>Send</button></p> 
+                </p>
+            </section>
 
-            </p>
-        </section>
-
-
-
-
-    </form>
-
-
+        </form>
 
 </body>
 </html>
