@@ -51,11 +51,11 @@ h1,h2 {
     color: purple;
     font-weight:bold;
 }
-
+/* calling the anchor tag that is within the post class */
 .post a{
     color: orange;
 }
-
+/* calling the anchor tag within the the footer tag */
 footer > a{
     color: rgb(104, 44, 5);
 }
