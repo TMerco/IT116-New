@@ -1,0 +1,32 @@
+/* I put a class for each color i will be using. */
+
+.crimson {
+    color: crimson;
+}
+
+.green {
+    color: green;
+}
+
+.yellow {
+    color: rgb(151, 151, 0);
+}
+
+.red {
+    color: red;
+}
+
+.orange {
+    color: orange;
+}
+/* I made the class to agree "yes" and i chaged the text color to white and the bg color to green */
+.yes {
+    color: white;
+    background-color: rgb(0, 173, 0);
+}
+/* I made the class to agree "no" and i chaged the text color to white and the bg color to red */
+
+.no {
+    color: white;
+    background-color: red;
+}
