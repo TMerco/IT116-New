@@ -1,0 +1,45 @@
+/*  */
+
+
+/* *{
+    color: pink;
+    background-color: green;
+
+} */
+
+
+* {
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+
+body {
+    background-color: rgb(255, 225, 230);
+}
+
+/*  */
+
+button {
+    font-size: 30px;
+}
+
+/* You can select more than 1 tag at a time by placeing a "," between tags */
+
+h1,h2 {
+    color: rgb(104, 44, 5);
+}
+
+/* using "#" is refering to the ID element in HTML */
+#signup {
+
+    background-color: rgb(104, 44, 5);
+    color: pink;
+}
+
+/* adding a "<span>" in html allows to style whatever is inside the tag in CSS */
+.tag {
+    font-size: larger;
+    color: purple;
+    font-weight:bold;
+}
