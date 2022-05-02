@@ -1,24 +1,32 @@
-/*  */
-
-
-/* *{
-    color: pink;
-    background-color: green;
-
-} */
-
+/*     "*" is used to select everything in the HTML file    */
 
 * {
     font-family: sans-serif;
     font-weight: normal;
+    margin: 0;
 }
+
+
+nav{
+    background-color: pink;
+}
+
+
+
 
 
 body {
     background-color: rgb(255, 225, 230);
 }
 
-/*  */
+/* When refering a TAG in the html file, just type the tag in CSS (it makes the change to every tag in the html file) */
+
+
+main {
+    padding: 0 1em
+}
+
+
 
 button {
     font-size: 30px;
@@ -43,3 +51,12 @@ h1,h2 {
     color: purple;
     font-weight:bold;
 }
+
+.post a{
+    color: orange;
+}
+
+footer > a{
+    color: rgb(104, 44, 5);
+}
+
