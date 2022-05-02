@@ -1,16 +1,20 @@
+
+
+/* Here I refered the h1 from the html file and used "color" to change the text color to green */
+
 h1 {
     color: green;
 }
-
+/* here i did the same with h2 but changed the color to purple */
 h2 {
     color: purple;
 }
-
+/* here i refered the "p" tag. changed the text color to pink and the BG color to green */
 p {
     color: pink;
     background-color: green;
 }
-
+/* refered the button tag and chaged the text color to white and the background to blue */
 button {
     color: white;
     background-color: blue;
