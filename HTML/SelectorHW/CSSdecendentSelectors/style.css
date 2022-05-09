@@ -1,9 +1,12 @@
+/* I referenced the anchor tags inside the header */
 header > a {
+    /* Changed the font to 30px and the text color to orange */
     font-size: 30px;
     color: orange;
 }
 
-
+/* referenced the id of "schools" inside the paragraph tag */
 p > #schools {
-    color: red;
+    /* changed the text color to red */
+    color: blue;
 }
