@@ -7,6 +7,6 @@ header > a {
 
 /* referenced the id of "schools" inside the paragraph tag */
 p > #schools {
-    /* changed the text color to red */
+    /* changed the text color to blue for Duke and Rainier Beach */
     color: blue;
 }
