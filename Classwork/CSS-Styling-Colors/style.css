@@ -17,5 +17,5 @@ p {
 /* refered the button tag and chaged the text color to white and the background to blue */
 button {
     color: white;
-    background-color: blue;
+    background-color: rgb(0, 0, 165);
 }
