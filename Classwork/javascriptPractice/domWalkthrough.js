@@ -27,10 +27,10 @@
 ////////////////////////////////////////////////////
 /////////////GetElementByClassName//////////////////
 
-var items = document.getElementByClassName('list-group-item');
+// var items = document.getElementByClassName('list-group-item');
 
-console.log(items);
-console.log(items[1]);
+// console.log(items);
+// console.log(items[1]);
 
 // //Styling Property Attributes through the variable.
 // items[1].style.fontWeight = 'bold';
@@ -43,3 +43,34 @@ console.log(items[1]);
 // items[0].style.backgroundColor = 'red';
 // items[0].textContent = 'Oooop - Coleman Love';
 // items[0].style.color = 'white';
+
+
+// for(var i = 0; i < li.length; i++){
+
+//     li[i].style.backgroundColor = 'lightgrey';
+//     li[i].textContent = 'Changed Text'; 
+
+////// QUERY SELECTOR//////
+
+// var header = document.querySelector('#main-header');
+// header.style.borderBottom = 'solid 4px hotpink';
+// // 
+// var input = document.querySelector('input');
+// input.value = "Changed The Input Box Text";
+// // 
+// var submit = document.querySelector("input[type='submit']");
+// submit.value = "SEND"; 
+// // 
+// var item = document.querySelector('.list-group-item');
+// item.style.color = 'red';
+// // 
+// var lastItem = document.querySelector('.list-group-item:last-child');
+// lastItem.style.color = 'coral';
+
+////////////////////////////////////////////////////////////////////
+
+///////QUERY SELECTOR ALL///////////////////////
+
+var titles = document.querySelectorAll('title');
+console.log(titles);
+titles[0].textContent = 'Hello Tyrell';
