@@ -27,11 +27,19 @@
 ////////////////////////////////////////////////////
 /////////////GetElementByClassName//////////////////
 
-var items = document.getElementBy className('list-group-item');
+var items = document.getElementByClassName('list-group-item');
 
 console.log(items);
 console.log(items[1]);
 
-items.[1].textContent = "Dogs"
+// //Styling Property Attributes through the variable.
+// items[1].style.fontWeight = 'bold';
+// items[1].style.backgroundColor = 'pink';
+// items[1].textContent = 'CATS';
+// items[1].style.color = 'green';
 
-items.[1].style.fontWeight = "bold"
+// items[0].textContent = "DOGS"
+// items[0].style.fontWeight = 'bold';
+// items[0].style.backgroundColor = 'red';
+// items[0].textContent = 'Oooop - Coleman Love';
+// items[0].style.color = 'white';
