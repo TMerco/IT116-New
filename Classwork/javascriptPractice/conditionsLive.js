@@ -71,25 +71,69 @@ console.log(randomNumber);
 // } 
 
 
-//switch statement allows to just write cases instead//
-const expr = 'Oranges' ;
+// //switch statement allows to just write cases instead//
+// const expr = 'Oranges' ;
 
-switch (expr) {
+// switch (expr) {
 
-    case 'Supreme':
-        console.log("Supreme is a skater brand.");
-        break;
+//     case 'Supreme':
+//         console.log("Supreme is a skater brand.");
+//         break;
 
-    case 'Bape':
-            console.log("Bape is a japanese brand");
-            break;
+//     case 'Bape':
+//             console.log("Bape is a japanese brand");
+//             break;
 
-    case 'OFF-White':
-        console.log("OFF-White is Virgil's brand");
-        break;
+//     case 'OFF-White':
+//         console.log("OFF-White is Virgil's brand");
+//         break;
+// //This is h
+//         default:
+//             console.log("CAWZY is the best brand though");
 
-        default:
-            console.log("CAWZY is the best brand though");
+
+// }
+
+// const password = prompt("Please Enter A New Password");
+
+// if (password.length >= 6) {
+
+//     //Nested Condition
+//     if (password.indexOf(' ') === -1) {
+
+//         console.log("Valid Password")
+//     }else {
+//         console.log("Password Can't Have Spaces")
+//     }
+
+// } else {
+
+//     console.log("Password is Too Short")
+// }
+
+// function singSong() {
+//     console.log("DO");
+//     console.log("RE");
+//     console.log("MI");
+// }
+
+// singSong()
+// singSong()
+// singSong()
+
+//Templete Literals//
+function greet(firstName) {
+
+    console.log(`Hey There, ${firstName}`)
 
 
 }
+
+greet('Tyrell')
+
+function greet1(firstName,lastName) {
+
+    console.log(`Hey There, ${firstName} ${lastName[0]}.`)
+}
+
+greet1('Tyrell','Mercolino')
