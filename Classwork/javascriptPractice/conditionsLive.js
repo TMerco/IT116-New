@@ -54,18 +54,42 @@ console.log(randomNumber);
 //     console.log("You are able to drive!");
 // }
 
-const age = prompt('ENTER AN AGE');
-// const age = 8;
+// const age = prompt('ENTER AN AGE');
+// // const age = 8;
+// // Relational opperators //
+// if (age < 5) {
+//     console.log("You Type Pretty Fast - 5 ");
+// } else if (age < 10) {
+//     console.log("Output of the logic compared to CASE STATEMENTS");
+// } else if (age < 35) {
+//     console.log("Output of the logic Mr Adult.");
+// }
+// //ELSE -- ALL ALL CONDITIONS IN THE LOGIC HAVE FAILED
+// else {
 
-if (age < 5) {
-    console.log("You Type Pretty Fast - 5 ");
-} else if (age < 10) {
-    console.log("Output of the logic compared to CASE STATEMENTS");
-} else if (age < 35) {
-    console.log("Output of the logic Mr Adult.");
+//     console.log("Last Resort If All Conditons Fail");
+// } 
+
+
+//switch statement allows to just write cases instead//
+const expr = 'Oranges' ;
+
+switch (expr) {
+
+    case 'Supreme':
+        console.log("Supreme is a skater brand.");
+        break;
+
+    case 'Bape':
+            console.log("Bape is a japanese brand");
+            break;
+
+    case 'OFF-White':
+        console.log("OFF-White is Virgil's brand");
+        break;
+
+        default:
+            console.log("CAWZY is the best brand though");
+
+
 }
-//ELSE -- ALL ALL CONDITIONS IN THE LOGIC HAVE FAILED
-else {
-
-    console.log("Last Resort If All Conditons Fail");
-} 
