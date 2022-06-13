@@ -19,9 +19,8 @@ if (randomNumber >= 0.5) {
 
 }
 
-If Else Statement:
-
-
+//if conditions are met
+// relational operators are used inside of conditional statements
 
 const dayOfWeek = 'Monday';
 
@@ -38,6 +37,7 @@ if (dayOfWeek === 'Monday') {
     console.log("Hooray, today is Saturday");
 }
 
+//If Else Statement are statements when conditions are not met
 
 const age = prompt('Enter An Age To Drive!');
 
@@ -94,6 +94,8 @@ switch (expr) {
 
 }
 
+// this is a nested condition. within the main condition if the criteria is met
+// strict operators ===
 const password = prompt("Please Enter A New Password");
 
 if (password.length >= 6) {
@@ -111,6 +113,10 @@ if (password.length >= 6) {
     console.log("Password is Too Short")
 }
 
+////////////////////////////////
+// Functions
+// call the function in order to run 
+
 function singSong() {
     console.log("DO");
     console.log("RE");
@@ -123,12 +129,15 @@ singSong()
 
 // Templete Literals
 function greet(firstName) {
+// string literal
 
     console.log(`Hey There, ${firstName}`)
 
 
 }
 
+//referencing the string index
+//[0]. will prompt first initial of last name
 greet('Tyrell')
 
 function greet1(firstName,lastName) {
@@ -137,3 +146,7 @@ function greet1(firstName,lastName) {
 }
 
 greet1('Tyrell','Mercolino')
+
+// once function is declared, call function for literals to run
+
+////////////////////////////
